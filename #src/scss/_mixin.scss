@@ -1,0 +1,15 @@
+@mixin adaptation($property, $maxSize, $minSize, $mode) {
+   @if $mode == 0 {
+      $addSize: $maxSize - $minSize;
+
+      @media (max-width: #{$maxContainer + px }) {
+         #{$property}: calc(#{$minSize + px} + (#{$addSize}) * ((100vw - #{320 + px}) / (#{$maxContainer} - 320)));
+      }
+   }
+}
+
+@mixin maxContainer {
+   max-width: $max-container;
+   margin: 0 auto;
+   padding: 0 20px;
+}

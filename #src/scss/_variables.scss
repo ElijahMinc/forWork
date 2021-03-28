@@ -1,0 +1,79 @@
+//         colors
+
+$first-color: #68cbb3;
+$text-color: black;
+$text-color-focus: #d91a3c;
+$color-in-slider-item: #7c4d82;
+
+// $first-color-dark: #2f0a0d;
+// $text-color: #524748;
+// $first-color-light: #7b6f71;
+// $first-color-lighten: #fbf9f9;
+
+// Font and Typography
+$body-font: "PT Sans";
+$font-PFDinTextCondPro: "PF Din Text Cond Pro";
+$font-BravoRGRegular: "BravoRG Regular";
+$font-CeremoniousOne: "Ceremonious One";
+$font-size-normal: 14px;
+$header-top-size: 12px;
+$header-top-line-height: 14.4px;
+$header-bottom-size: 14px;
+$header-bottom-line-height: 16.8px;
+$form-size: 14px;
+$form-line-height: 16.8px;
+$h1-size: 48px;
+$h2-size: 48px;
+$h3-size: 20px;
+
+// CONTAINER
+$max-container: 950px;
+// $biggest-font-size: 2.5rem;
+// $h1-font-size: 2.3rem;
+// $h2-font-size: 2rem;
+// $h3-font-size: 1.5rem;
+// $h1-font-size-adaptive: 2rem;
+// $h2-font-size-adaptive: 1rem;
+// $normal-font-size: 0.938rem;
+// $small-font-size: 0.813rem;
+// $smaller-font-size: 0.75rem;
+
+// Font-weight
+
+$font-light: 300;
+$font-regular: 400;
+$font-bold: 700;
+
+// Margenes
+// $mr-regular: 10px;
+// $mr-top: 20px;
+// $mr-3: 1.5rem;
+// $mr-4: 2rem;
+// $mr-5: 2.5rem;
+// $mr-6: 3rem;
+
+// z-index
+
+$z-normal: 1;
+$z-tooltip: 10;
+$z-fixed: 100;
+
+// @media sreen and (min-width: 768px) {
+//    $biggest-font-size: 4.5rem;
+//    $h1-font-size: 2.25rem;
+//    $h2-font-size: 1.5rem;
+//    $h3-font-size: 1.25rem;
+//    $normal-font-size: 1rem;
+//    $small-font-size: 0.875rem;
+//    $smaller-font-size: 0.813rem;
+// }
+
+// scripts
+// @@include('scripting/_burgerMenu.js')
+// @@include('scripting/_accordion.js')
+// @@include('scripting/_popap.js')
+// @@include('scripting/_progressBar.js')
+// @@include('scripting/_rangeInput.js')
+// @@include('scripting/_selectImitation.js')
+// @@include('scripting/_swiper.js')
+// @@include('scripting/_ibg.js')

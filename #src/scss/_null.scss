@@ -1,0 +1,62 @@
+// Base
+html {
+   scroll-behavior: smooth;
+   height: 100%;
+}
+body {
+   font-family: $body-font;
+   font-size: $font-size-normal;
+   font-weight: $font-regular;
+   background-color: white;
+   color: $text-color;
+}
+body._lock {
+   overflow: hidden;
+}
+*,
+:before,
+:after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+h1,
+h2,
+ul,
+p {
+   margin: 0;
+}
+
+ul {
+   padding: 0;
+   list-style: none;
+}
+a {
+   text-decoration: none;
+   color: black;
+   text-transform: uppercase;
+   display: inline-block;
+}
+img {
+   display: block;
+}
+input,
+select {
+   outline: none;
+   border: 1px solid #e0e0e0;
+   border-radius: 5px;
+}
+button {
+   outline: none;
+   border: none;
+   text-transform: uppercase;
+}
+// Class CSS
+.wrapper {
+   width: 100%;
+   min-height: 100%;
+   // overflow: hidden;
+}
+.container {
+   @include maxContainer();
+}
